@@ -1,0 +1,64 @@
+@import 'fonts';
+@import 'variables';
+
+body{
+    background-color: $bg-color;
+}
+.side-bar{
+position: fixed;
+width: 140px;
+height: 100vh;
+left: 0px;
+top: 0px;
+background-color: $sd-bg-color;
+display: grid;
+grid-template-rows: 1fr 4fr 1fr;
+
+
+
+}
+.side-bar-head{
+width: 140px;
+
+
+}
+.logo{
+background: url('/dist/img/logo1.svg') center center/cover;
+position: absolute;
+width: 55.71px;
+height: 40px;
+left: calc(50% - 55.71px/2 - 0.14px);
+top: 40px;
+
+}
+.line{
+position: absolute;
+height: 1px;
+left: 0px;
+right: 0px;
+top: 119px;
+background: #F5F8FA;
+}
+.category{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    padding-top: 2rem;
+
+}
+.side-cat{
+    background: url('/dist/img/side-cat.svg');
+    width: 58px;
+    height: 500px;
+    
+}
+
+.side-footer{
+    background: url('/dist/img/side-footer.svg') no-repeat center center;
+}
+.main{
+    background: url('/dist/img/main.png') no-repeat center center;
+    width: 1700px;
+    height: 1307px;
+    margin-left: 240px;
+}
